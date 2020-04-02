@@ -12,9 +12,8 @@ def nyc_pigeon_organizer(data)
       while element < data[index][inner_index].length 
   
         pigeon_name = data[index][inner_index]
-        
+        data_by_pigeon << pigeon_name
         element += 1 
-        
       end
     inner_index += 1 
   end
