@@ -7,7 +7,7 @@ def nyc_pigeon_organizer(data)
       data[property][value].each do |name|
         data_by_pigeon[name] = data_by_pigeon[name] || {}  
         data_by_pigeon[name][property] = data_by_pigeon[name][property] || []
-        data_by_pigeon[name][property] << value 
+        data_by_pigeon[name][property] << value.to_s 
       end
     end
   end
