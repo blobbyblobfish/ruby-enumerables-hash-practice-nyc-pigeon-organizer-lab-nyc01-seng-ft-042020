@@ -4,7 +4,7 @@ def nyc_pigeon_organizer(data)
   
   index = 0 
   while index < data.length 
-  puts data[index]
+  puts ************** data[index]
     inner_index = 0 
     while inner_index < data[index].length
   
